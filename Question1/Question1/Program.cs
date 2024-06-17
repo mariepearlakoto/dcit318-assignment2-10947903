@@ -4,7 +4,7 @@ public class Animal
 {
     public virtual void MakeSound()
     {
-        Console.WriteLine("some generic sound");
+        Console.WriteLine("Some generic sound");
     }
 }
 
@@ -34,7 +34,7 @@ class Program
         Cat cat1 = new Cat();
 
         animal1.MakeSound();
-        cat1.MakeSound();
         dog1.MakeSound();
+        cat1.MakeSound();
     }
 }
